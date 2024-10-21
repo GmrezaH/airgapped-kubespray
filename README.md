@@ -638,9 +638,3 @@ kubectl taint nodes <control-plane_node_name> node-role.kubernetes.io/control-pl
 ## Contributions and Support
 
 Feel free to open issues or contribute to this repository. For further questions or support, refer to the [Kubespray documentation](https://kubespray.io) or contact the maintainers of this project.
-
----
-
-## Contributions and Support
-
-Feel free to open issues or contribute to this repository. For further questions or support, refer to the [Kubespray documentation](https://kubespray.io) or contact the maintainers of this project.
