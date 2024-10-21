@@ -315,10 +315,10 @@ yum install -y reposync epel-release
 # Sync required RPM repositories
 reposync --repoid=appstream --downloaddir=./repos --download-metadata --newest-only
 reposync --repoid=baseos --downloaddir=./repos  --download-metadata  --newest-only
-reposync --repoid=docker-ce-stable --downloaddir=./repos  --download-metadata  --newest-only
-reposync --repoid=extras --downloaddir=./repos  --download-metadata  --newest-only
-reposync --repoid=kubernetes-1.29-stable --downloaddir=./repos  --download-metadata
 reposync --repoid=epel --downloaddir=./repos --download-metadata  --newest-only
+reposync --repoid=extras --downloaddir=./repos  --download-metadata  --newest-only
+reposync --repoid=docker-ce-stable --downloaddir=./repos  --download-metadata
+reposync --repoid=kubernetes-1.29-stable --downloaddir=./repos  --download-metadata
 
 # Archive the RPM repositories
 tar cvfz ./rpm-repos.tar.gz ./repos
