@@ -21,7 +21,9 @@ Kubernetes clusters can be created using various automation tools, and **Kubespr
 
 The diagram below illustrates the deployment architecture used by Kubespray:
 
-![Kubespray Architecture](https://bbs-img.huaweicloud.com/blogs/img/20230607/1686127981065342881.png?raw=true)
+<div align="center">
+  <img src="https://bbs-img.huaweicloud.com/blogs/img/20230607/1686127981065342881.png?raw=true" alt="Kubespray Architecture" />
+</div>
 
 ---
 
