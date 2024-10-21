@@ -1,0 +1,35 @@
+[appstream]
+name=Nginx Local Appstream Repository
+baseurl="http://<Repository_VM_IP>:8080/appstream/"
+gpgcheck=0
+enabled=1
+
+[baseos]
+name=Nginx Local Baseos Repository
+baseurl="http://<Repository_VM_IP>:8080/baseos/"
+gpgcheck=0
+enabled=1
+
+[epel]
+name=Nginx Local EPEL Repository
+baseurl="http://<Repository_VM_IP>:8080/epel/"
+gpgcheck=0
+enabled=1
+
+[extras]
+name=Nginx Local Extras Repository
+baseurl="http://<Repository_VM_IP>:8080/extras/"
+gpgcheck=0
+enabled=1
+
+[docker-ce-stable]
+name=Nginx Local Docker-CE Repository
+baseurl="http://<Repository_VM_IP>:8080/docker-ce-stable/"
+gpgcheck=0
+enabled=1
+
+[kubernetes-1.29-stable]
+name=Nginx Local Kubernetes 1.29 Repository
+baseurl="http://<Repository_VM_IP>:8080/kubernetes-1.29-stable/"
+gpgcheck=0
+enabled=1
